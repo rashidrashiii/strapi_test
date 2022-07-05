@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_plan_plans",
+  "info": {
+    "displayName": "plan",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "plan_title": {
+      "type": "string"
+    },
+    "plan_price": {
+      "type": "float"
+    },
+    "plan_feature": {
+      "type": "component",
+      "repeatable": true,
+      "component": "features.features"
+    }
+  }
+}
